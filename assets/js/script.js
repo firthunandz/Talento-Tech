@@ -1,16 +1,13 @@
 const decrementBtns = document.querySelectorAll('.card__btn-minus');
 const incrementBtns = document.querySelectorAll('.card__btn-plus');
-// let cart = [];
 const addToCart = document.querySelectorAll('.buy-now');
-
+const alertSuccess = document.getElementById('alert-success');
 
 incrementBtns.forEach((button) => {
   button.addEventListener('click', () => {
     const quantityElement = button.parentElement.querySelector('.card__counter-score');
     let currentValue = parseInt(quantityElement.textContent, 10);
     quantityElement.textContent = currentValue + 1;
-    console.log(cardItemsContainer);
-    
   });
 });
 
@@ -44,6 +41,19 @@ addToCart.forEach((button) => {
         total: productPrice*productQuantity
       };
       addToLocalStorage(product);
+
+      const buttonRect = event.target.getBoundingClientRect();
+
+      alertSuccess.style.top = `${buttonRect.top - alertSuccess.offsetHeight - 20}px`;
+      alertSuccess.style.left = `${buttonRect.left + buttonRect.width / 5 - alertSuccess.offsetWidth / 2}px`;
+  
+      alertSuccess.classList.add('visible');
+      alertSuccess.classList.remove('hidden');
+  
+      setTimeout(() => {
+        alertSuccess.classList.remove('visible');
+        alertSuccess.classList.add('hidden');
+      }, 1000);
     }
   });
 });
