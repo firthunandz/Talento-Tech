@@ -34,13 +34,14 @@
         action="https://formspree.io/f/xqakqlea"
         method="POST"
         class="form-container"
+        id="contact-form"
       >
-        <label>Nombre:</label>
-        <input type="text" name="name">
-        <label>E-mail:</label>
-        <input type="email" name="email">
-        <label>Escribe tu comentario aqui:</label>
-        <textarea class="custom-textarea" name="message"></textarea>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Escribe tu comentario aqui:</label>
+        <textarea class="custom-textarea" id="message" name="message"></textarea>
         <button type="submit">Enviar</button>
       </form>
 
@@ -58,6 +59,6 @@
         </a>  
       </article>
     </footer>
-    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/contact.js"></script>
   </body>
 </html>
