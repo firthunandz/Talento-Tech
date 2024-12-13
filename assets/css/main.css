@@ -629,18 +629,32 @@ footer > p {
 	background-color: var(--color-light-green);
 	padding-inline: var(--spacing-1-25em);
 	padding-block: var(--spacing-0-75em);
-	gap: var(--spacing-0-75em);
 	border-radius: 10px;
+	gap: var(--spacing-0-25em);
 }
 
-.review-card > h3 {
+.review-name {
 	background-color: inherit;
 	color: var(--color-red);
 	font-family: var(--font-title);
 	font-size: var(--spacing-1-25em);
 }
 
-.review-card > p {
+.review-prof {
+	background-color: inherit;
+	color: var(--color-dark-green);
+	font-size: var(--spacing-0-75em);
+	font-weight: 500;
+}
+
+.review-value {
+	background-color: inherit;
+	font-family: var(--font-title);
+	font-size: var(--spacing-0-75em);
+	color: var(--color-dark-green);
+}
+
+.review-message {
 	background-color: inherit;
 	color: var(--color-dark-green);
 	font-weight: 500;

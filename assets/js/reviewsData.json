@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "name": "Marie Curie",
+    "value": "Espectacular!",
+    "comment": "¡Tu chucrut tiene un equilibrio perfecto entre acidez y frescura! Me encanta.",
+    "occupation": "Científica"
+  },
+  {
+    "id": 2,
+    "name": "Lionel Messi",
+    "value": "Increíble!",
+    "comment": "El kimchi que hacen es como un gol en el último minuto, ¡pura magia!",
+    "occupation": "Futbolista"
+  },
+  {
+    "id": 3,
+    "name": "Frida Kahlo",
+    "value": "Arte puro!",
+    "comment": "Sus pepinos pickles son una obra maestra para los sentidos, una explosión de sabor.",
+    "occupation": "Pintora"
+  },
+  {
+    "id": 4,
+    "name": "Albert Einstein",
+    "value": "Excepcional!",
+    "comment": "La sriracha tiene una intensidad que desafía las leyes del picante. ¡Brillante!",
+    "occupation": "Físico"
+  },
+  {
+    "id": 5,
+    "name": "Leonardo da Vinci",
+    "value": "Divino!",
+    "comment": "El vinagre de manzana es como una alquimia perfecta, cada gota es una maravilla.",
+    "occupation": "Artista e inventor"
+  },
+  {
+    "id": 6,
+    "name": "Malala Yousafzai",
+    "value": "Inspirador!",
+    "comment": "La dedicación que ponen en sus fermentos se siente en cada bocado. ¡Un ejemplo a seguir!",
+    "occupation": "Activista"
+  },
+  {
+    "id": 7,
+    "name": "Nikola Tesla",
+    "value": "Innovador!",
+    "comment": "La textura y sabor del chucrut morado son de otro nivel, ¡es electrizante!",
+    "occupation": "Inventor"
+  },
+  {
+    "id": 8,
+    "name": "Cleopatra",
+    "value": "Majestuoso!",
+    "comment": "Los fermentos son dignos de un faraón, cada frasco es un lujo.",
+    "occupation": "Reina del Antiguo Egipto"
+  },
+  {
+    "id": 9,
+    "name": "David Bowie",
+    "value": "Estelar!",
+    "comment": "Probar sus productos es como viajar por las estrellas, ¡un sabor de otro mundo!",
+    "occupation": "Músico"
+  }
+]
