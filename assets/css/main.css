@@ -755,6 +755,122 @@ footer > p {
 	}
 }
 
+/* Cart */
+
+.cart-container {
+	margin-top: var(--spacing-0-5em);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.cart-title {
+	border-top: solid 1px var(--color-red);
+	border-bottom: solid 1px var(--color-red);
+	font-size: var(--spacing-1-25em);
+	color: var(--color-dark-green);
+	margin-bottom: var(--spacing-0-5em);
+}
+
+.cart-products {
+	display: flex;
+	flex-direction: column;
+	gap: var(--spacing-0-25em);
+}
+
+.cart-products > h3 {
+	font-family: var(--font-title);
+	color: var(--color-medium-green);
+	align-self: center;
+}
+
+.cart-products > ul,
+.cart-products > ul > li {
+	font-weight: 500;
+}
+
+.cart-total-p {
+	align-self: self-end;
+	font-weight: 500;
+	font-size: var(--spacing-1-25em);
+
+	.total-simbol {
+		color: var(--color-red);
+		font-weight: 600;
+	}
+	
+	.cart-total {
+		color: var(--color-red);
+		font-weight: 600;
+	}
+}
+
+.clear-cart {
+	cursor: pointer;
+	background-color: var(--color-red);
+	font-family: var(--font-title);
+	font-size: var(--spacing-1em);
+	padding: 0.2em 0.5em;
+	border-radius: 2em;
+	color: var(--color-medium-green);
+	margin-top: var(--spacing-0-25em);
+	align-self: center;
+}
+
+@media (min-width: 480px) {
+	.cart-container {
+		margin-top: 0;
+	}
+
+	.cart-title {
+		font-size: var(--spacing-1-5em);
+	}
+}
+
+@media (min-width: 768px) {
+	.cart-title {
+		font-size: var(--spacing-2em);
+		margin-bottom: var(--spacing-0-25em);
+	}
+
+	.cart-products > h3 {
+		font-size: var(--spacing-1-25em);
+	}
+}
+
+@media (min-width: 1024px) {
+	.cart-title {
+		font-size: var(--spacing-2-5em);
+	}
+
+	.cart-products > h3 {
+		font-size: var(--spacing-1-75em);
+	}
+
+	.cart-products > ul,
+	.cart-products > ul > li {
+		font-size: var(--spacing-1-25em);
+	}
+
+	.cart-total-p {
+		font-size: var(--spacing-1-5em);
+	}
+
+	.total-simbol {
+		font-size: var(--spacing-1-5em);
+	}
+	
+	.cart-total {
+		font-size: var(--spacing-1-5em);
+	}
+
+	.clear-cart {
+		font-size: var(--spacing-1-25em);
+	}
+}
+
+/* Buy alert */
+
 .alert-container {
 	padding: 16px;
 }
@@ -803,3 +919,4 @@ footer > p {
 .hidden {
 	display: none;
 }
+
