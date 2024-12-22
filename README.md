@@ -1,2 +1,2 @@
 # Talento-Tech
-Pre entrega web page para Talento Tech
+Entrega proyecto final, e-commerce web page para Talento Tech
